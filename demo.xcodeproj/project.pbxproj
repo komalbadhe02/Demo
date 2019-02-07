@@ -12,6 +12,11 @@
 		246EAB64220C597B0071E9A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246EAB62220C597B0071E9A0 /* Main.storyboard */; };
 		246EAB66220C59A20071E9A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246EAB65220C59A20071E9A0 /* Assets.xcassets */; };
 		246EAB69220C59A20071E9A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246EAB67220C59A20071E9A0 /* LaunchScreen.storyboard */; };
+		246EAB76220C5A2D0071E9A0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246EAB71220C5A2D0071E9A0 /* Constants.swift */; };
+		246EAB77220C5A2D0071E9A0 /* Common_utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246EAB72220C5A2D0071E9A0 /* Common_utils.swift */; };
+		246EAB78220C5A2D0071E9A0 /* Alert_messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246EAB73220C5A2D0071E9A0 /* Alert_messages.swift */; };
+		246EAB79220C5A2D0071E9A0 /* UITextfield_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246EAB74220C5A2D0071E9A0 /* UITextfield_extension.swift */; };
+		246EAB7A220C5A2D0071E9A0 /* Soap_client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246EAB75220C5A2D0071E9A0 /* Soap_client.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		246EAB65220C59A20071E9A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		246EAB68220C59A20071E9A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		246EAB6A220C59A20071E9A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246EAB71220C5A2D0071E9A0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		246EAB72220C5A2D0071E9A0 /* Common_utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common_utils.swift; sourceTree = "<group>"; };
+		246EAB73220C5A2D0071E9A0 /* Alert_messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert_messages.swift; sourceTree = "<group>"; };
+		246EAB74220C5A2D0071E9A0 /* UITextfield_extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextfield_extension.swift; sourceTree = "<group>"; };
+		246EAB75220C5A2D0071E9A0 /* Soap_client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soap_client.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		246EAB5D220C597B0071E9A0 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				246EAB70220C5A2D0071E9A0 /* Helpers */,
 				246EAB5E220C597B0071E9A0 /* AppDelegate.swift */,
 				246EAB60220C597B0071E9A0 /* ViewController.swift */,
 				246EAB62220C597B0071E9A0 /* Main.storyboard */,
@@ -62,6 +73,18 @@
 				246EAB6A220C59A20071E9A0 /* Info.plist */,
 			);
 			path = demo;
+			sourceTree = "<group>";
+		};
+		246EAB70220C5A2D0071E9A0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				246EAB71220C5A2D0071E9A0 /* Constants.swift */,
+				246EAB72220C5A2D0071E9A0 /* Common_utils.swift */,
+				246EAB73220C5A2D0071E9A0 /* Alert_messages.swift */,
+				246EAB74220C5A2D0071E9A0 /* UITextfield_extension.swift */,
+				246EAB75220C5A2D0071E9A0 /* Soap_client.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +159,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				246EAB61220C597B0071E9A0 /* ViewController.swift in Sources */,
+				246EAB79220C5A2D0071E9A0 /* UITextfield_extension.swift in Sources */,
 				246EAB5F220C597B0071E9A0 /* AppDelegate.swift in Sources */,
+				246EAB77220C5A2D0071E9A0 /* Common_utils.swift in Sources */,
+				246EAB76220C5A2D0071E9A0 /* Constants.swift in Sources */,
+				246EAB7A220C5A2D0071E9A0 /* Soap_client.swift in Sources */,
+				246EAB78220C5A2D0071E9A0 /* Alert_messages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
